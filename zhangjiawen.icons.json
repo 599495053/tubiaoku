@@ -1,5 +1,10 @@
 {
   "name": "张嘉文自用",
   "description": "收集一些自己脚本用到的图标",
-  "icons": []
+  "icons": [
+    {
+      "name": "Egern11.png",
+      "url": "https://raw.githubusercontent.com/599495053/tubiaoku/main/icon/Egern11.png"
+    }
+  ]
 }
