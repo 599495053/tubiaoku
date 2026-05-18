@@ -25,6 +25,9 @@ This repository stores PNG icon files and automatically generates
 }
 ```
 
+When icons are stored in subdirectories, the `name` field keeps the relative path
+under `icon/`, for example `social/ChatGPT.png`.
+
 ## Automation behavior
 
 - Changes under `icon/` trigger a manifest regeneration.
@@ -35,4 +38,6 @@ This repository stores PNG icon files and automatically generates
 
 - Keep icon files in `.png` format.
 - Nested folders under `icon/` are supported.
+- Local runs are supported; when GitHub Actions variables are absent, the script
+  falls back to the repository's `origin` remote URL.
 - Raw file URLs follow the branch that triggered the workflow, so branch previews stay accurate.
